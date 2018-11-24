@@ -8,11 +8,15 @@
     "url": "git://github.com/dominictarr/secret-handshake.git"
   },
   "dependencies": {
+    "blake2s": "^1.1.0",
     "chloride": "^2.2.7",
     "deep-equal": "~1.0.0",
+    "libsodium": "^0.7.3",
+    "murmurhash-native": "^3.2.4",
     "pull-box-stream": "^1.0.13",
     "pull-handshake": "^1.1.1",
-    "pull-stream": "^3.4.5"
+    "pull-stream": "^3.4.5",
+    "xxhash": "^0.2.4"
   },
   "devDependencies": {
     "pull-bitflipper": "~0.1.0",

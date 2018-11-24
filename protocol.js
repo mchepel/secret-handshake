@@ -2,7 +2,7 @@ var pull = require('pull-stream')
 var boxes = require('pull-box-stream')
 
 var Handshake = require('pull-handshake')
-var random = require('./random')
+var random = require('./utils').random;
 
 function isBuffer(buf, len) {
   return Buffer.isBuffer(buf) && buf.length === len
